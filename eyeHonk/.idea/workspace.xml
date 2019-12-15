@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6c2ad34b-9758-477b-b86f-54fa8426da04" name="Default Changelist" comment="" />
+    <list default="true" id="6c2ad34b-9758-477b-b86f-54fa8426da04" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/alerts/static/alerts/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/static/alerts/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/static/alerts/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/static/img/eyeHonkLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/static/img/eyeHonkLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/honk.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/honk.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/settings.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,7 +26,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1UylvnmBCwZahvqYvpGuhYEzUti" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,6 +38,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/alerts/static/img" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -85,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576336948332</updated>
-      <workItem from="1576336949557" duration="13248000" />
+      <workItem from="1576336949557" duration="21778000" />
     </task>
     <servers />
   </component>

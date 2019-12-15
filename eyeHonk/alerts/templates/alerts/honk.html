@@ -14,7 +14,7 @@
                 <div class="container">
                   <a class="navbar-brand mr-4" href="{% url 'alerts-home' %}">
                       <div class="logo-image">
-                        <img src="image" class="img-fluid">
+                        <img src="{% static 'img/eyeHonkLogo.png' %}" class="img-fluid">
                       </div>
                   </a>
                   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,14 +32,37 @@
                 </div>
             </nav>
        </header>
-        <div class="container">
-            <h1>Honk page</h1>
-        </div>
+{#        <div class="container">#}
+{#            <h1>Honk page</h1>#}
+{#        </div>#}
+         <div id="alertWrapper">
+            <div id="topLeft" class="square" onmouseenter="shine(id)" onmouseleave="removeShine(id)">
+                <div class="content">
+                    <h1 id="food" onclick="alertShine(id)">Food</h1>
+                </div>
+            </div>
+            <div id="topRight" class="square" onmouseenter="shine(id)" onmouseleave="removeShine(id)">
+                <div class="content">
+                    <h1 id="water" onclick="alertShine(id)">Water</h1>
+                </div>
+            </div>
+            <div id="bottomLeft" class="square" onmouseenter="shine(id)" onmouseleave="removeShine(id)">
+                <div class="content">
+                    <h1 id="bathroom" onclick="alertShine(id)">Bathroom</h1>
+                </div>
+            </div>
+            <div id="bottomRight" class="square" onmouseenter="shine(id)" onmouseleave="removeShine(id)">
+                <div class="content">
+                    <h1 id="honk" onclick="alertShine(id)">Honk!</h1>
+                </div>
+            </div>
+         </div>
 
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="{% static 'alerts/main.js' %}"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
