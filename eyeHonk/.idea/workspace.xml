@@ -2,14 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c2ad34b-9758-477b-b86f-54fa8426da04" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alerts/static/alerts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/eyeHonk.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eyeHonkApp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eyeHonkApp/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eyeHonkApp/mouse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eyeHonkApp/sms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alerts/static/alerts/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/static/alerts/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alerts/static/img/eyeHonkLogo.png" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/static/img/eyeHonkLogo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/static/alerts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/static/alerts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/honk.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/honk.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/alerts/templates/alerts/settings.html" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/templates/alerts/settings.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alerts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/alerts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../eyeHonkApp/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +40,14 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/alerts/static/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -76,18 +83,6 @@
       <option name="customRunCommand" value="" />
       <method v="2" />
     </configuration>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />

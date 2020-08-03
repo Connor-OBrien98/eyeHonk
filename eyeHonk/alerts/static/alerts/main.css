@@ -1,7 +1,11 @@
 body {
-  color: #333333;
+  color: #ffffff;
   margin-top: 7rem;
-  background-color: black;
+  //background-color: #101538;
+  background: url('https://source.unsplash.com/twukN12EN7c/1920x1080') no-repeat center center fixed;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 ul {
@@ -9,7 +13,7 @@ ul {
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #c97c1e;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -79,7 +83,7 @@ a.article-title:hover {
   font-size: 2.5rem;
 }
 
-.logo-image{
+.logo-image {
     width: 131px;
     height: 38px;
     overflow: hidden;
@@ -87,14 +91,39 @@ a.article-title:hover {
     margin-right: 10px;
 }
 
+#home-top, #home-top2, #home-top3, #home-footer {
+    min-height: 300px;
+    border: 1px solid red;
+}
+
+.home-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home-footer {
+    text-align: right;
+}
+
+#alertWrapper {
+    height: 76vh;
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
 .square {
-    height: 300px;
-    width: 300px;
+    height: 30vh;
+    width: 30vw;
     border: 2px solid blue;
-    display: inline-flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    float: left;
     border: 2px solid black;
 }
 
@@ -104,36 +133,27 @@ a.article-title:hover {
     color: white;
 }
 
-#alertWrapper {
-    height: 600px;
-    width: 600px;
-    margin: 0 auto;
-}
-
 #topLeft {
-    border-right: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 2px solid black;
     background-color: purple;
-    border-radius: 5px 0 0 0;
+    border-radius: 12px;
+
 }
 
 #topRight {
-    border-left: 1px solid black;
-    border-bottom: 1px solid black;
+    border: 2px solid black;
     background-color: red;
-    border-radius: 0 5px 0 0;
+    border-radius: 12px;
 }
 
 #bottomLeft {
-    border-right: 1px solid black;
-    border-top: 1px solid black;
+    border: 2px solid black;
     background-color: green;
-    border-radius: 0 0 0 5px;
+    border-radius: 12px;
 }
 
 #bottomRight {
-    border-left: 1px solid black;
-    border-top: 1px solid black;
+    border: 2px solid black;
     background-color: blue;
-    border-radius: 0 0 5px 0;
+    border-radius: 12px;
 }

@@ -1,16 +1,17 @@
-shine = id => {
+//shine is a function that applys a border when hovered over
+const shine = id => {
     let sections = document.getElementById(id);
-    console.log(sections);
     sections.setAttribute("style", "border: 5px solid lightgreen;");
-    console.log('please lol');
 }
 
-removeShine = id => {
+//removeShine removes the style applied to a section
+const removeShine = id => {
     let sections = document.getElementById(id);
     sections.removeAttribute("style");
 }
 
-alertShine = (id) => {
+//alertShine was used doing testing to alert the specific section when clicked
+const alertShine = id => {
     if (id === "honk"){
         alert("Connor needs assistance!");
     } else if (id === "water") {

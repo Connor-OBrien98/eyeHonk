@@ -26,14 +26,43 @@
                     </div>
                             <!-- Navbar Right Side -->
                     <div class="navbar-nav">
-                      <a class="nav-item nav-link" href="{% url 'alerts-settings' %}">Settings</a>
+                        <a class="nav-item nav-link" href="{% url 'alerts-honk' %}">Honk</a>
+                        <a class="nav-item nav-link" href="{% url 'alerts-settings' %}">Settings</a>
                     </div>
                   </div>
                 </div>
             </nav>
         </header>
         <div class="container">
-            <h1>Home page</h1>
+            <div id="home-top" class="row align-items-center">
+                <div class="col-sm-4">
+                    <h1 class="home-text">Home Page</h1>
+                </div>
+                <div class="col-sm-8">
+                    <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus rhoncus accumsan erat ut sagittis. Vestibulum et viverra arcu. Fusce ac lacinia libero, eu sodales tellus. Quisque et semper lectus, eu tincidunt sapien. Aenean id lacinia eros, eget viverra ipsum. Praesent luctus sem vel urna cursus, scelerisque varius odio ultricies. Curabitur a aliquet nisi.</p>
+                </div>
+            </div>
+            <div id="home-top2" class="row align-items-center">
+                <div class="col-md-4">
+                    <h1 class="home-text">Home Page</h1>
+                </div>
+                <div class="col-md-4">
+                    <img src="{% static 'img/eyeHonkLogo.png' %}" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <h1 class="home-text">Home Page</h1>
+                </div>
+            </div>
+            <div id="home-top3" class="row align-items-center">
+                <div class="col-md-12">
+                    <p class="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce posuere laoreet eleifend. Nunc molestie, augue in vestibulum pretium, risus nibh posuere lacus, vitae tempus tortor nisl faucibus elit. Sed a mi a metus pulvinar rutrum vitae nec arcu. Pellentesque in metus diam. Nullam gravida magna a est volutpat, at fermentum ex ullamcorper. Aenean volutpat diam dapibus vestibulum facilisis. Nulla facilisi. Mauris sit amet maximus enim. Suspendisse bibendum leo sit amet feugiat volutpat.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3 id="home-footer">Created by Connor O'Brien | 2020</h3>
+                </div>
+            </div>
         </div>
 
 
