@@ -1,7 +1,7 @@
 #requirements for django
 asgiref==3.2.10
 cmake==3.17.3
-Django==3.0.8
+Django==3.1.12
 dlib==19.20.0
 numpy==1.19.0
 opencv-python==4.3.0.36
